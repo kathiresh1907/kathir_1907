@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container, .container1, .container2 {
+    display: flex;
+    background-color: Dodgerblue;
+}
+
+.container {
+    flex-wrap: nowrap;
+}
+
+.container1 {
+    flex-wrap: wrap;
+}
+
+.container2 {
+    flex-wrap: wrap-reverse;
+}
+
+.container div,
+.container1 div,
+.container2 div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Flex Wrap: Nowrap</h1>
+
+<div class="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+    <div>Item 6</div>
+    <div>Item 7</div>
+    <div>Item 8</div>
+</div>
+
+<h1>Flex Wrap: Wrap</h1>
+
+<div class="container1">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+    <div>Item 6</div>
+    <div>Item 7</div>
+    <div>Item 8</div>
+</div>
+
+<h1>Flex Wrap: Wrap Reverse</h1>
+
+<div class="container2">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+    <div>Item 6</div>
+    <div>Item 7</div>
+    <div>Item 8</div>
+</div>
+
+<p>Flexbox must have a parent element with display set to flex.</p>
+
+<p>Direct child elements of a flex container are automatically flex items.</p>
+
+</body>
+</html>

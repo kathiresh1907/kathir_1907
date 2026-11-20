@@ -1,0 +1,16 @@
+var a=10;
+console.log(a);
+var _a=20;
+console.log(_a);
+var $a=30;
+console.log($a);
+var _=10;
+console.log(_);
+var __=100;
+console.log(__);
+var $=200;
+console.log($);
+var $$=300;
+console.log($$);
+var b;
+console.log(b);
